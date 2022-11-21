@@ -20,8 +20,7 @@ import TechnologyUsed from "./technologyused";
 export default function Portfolio() {
   const linkedinUrl = "https://www.linkedin.com/in/gagan-r-achanur-8804181a3/";
   const githubUrl = "https://github.com/Gaganachanur";
-  const Resume =
-    "https://www.dropbox.com/s/1a1466dylx6ggzv/Gagan%27s%20Resume.pdf?dl=0";
+  const Resume ="https://www.dropbox.com/s/1a1466dylx6ggzv/Gagan%27s%20Resume.pdf?dl=0";
   const { scrollYProgress } = useScroll();
   const [darkMode, setDarkMode] = useState(false);
   const [activeLinkedin, setActiveLinkedin] = useState("#0e76a8");
