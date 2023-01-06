@@ -15,7 +15,8 @@ import Image from "next/image";
 import { motion, useScroll } from "framer-motion";
 import portfolio from "../assets/dev7.png";
 import dangerousdev from "../assets/dangerousdev1.png";
-import TechnologyUsed from "./technologyused";
+import TechnologyUsed from "./TechnologyUsed.js";
+import Projects from "./projects";
 
 export default function Portfolio() {
   const linkedinUrl = "https://www.linkedin.com/in/gagan-r-achanur-8804181a3/";
@@ -62,7 +63,7 @@ export default function Portfolio() {
                   <FcHome className="cursor-pointer" />
                 </Link>
               </li>
-              <li>
+              <li className=" animate-bounce">
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
                   className="cursor-pointer"
@@ -73,7 +74,7 @@ export default function Portfolio() {
           </nav>
 
           <div className="text-center text-5xl font-extrabold ...">
-            <h2 className="text-5xl py-2 mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-yellow-500 font-Michroma ">
+            <h2 className="text-5xl py-2 mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-yellow-500 font-Michroma">
               Hi, I'm Gagan 👋
             </h2>
             <h2 className="text-2xl py-2 font-burtons dark:text-white">
@@ -130,6 +131,7 @@ export default function Portfolio() {
             </div>
           </div>
           <TechnologyUsed />
+          <Projects/>
           <section>
             <div>
               <h3 className="text-3xl py-1 font-Michroma dark:text-gray-200">

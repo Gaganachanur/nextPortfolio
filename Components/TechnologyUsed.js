@@ -11,7 +11,7 @@ const TechnologyUsed = () => {
     <section className='mb-10' >
         <div className='m-5'>
           <div className='mb-2'>
-            <h3 className='text-3xl font-Michroma dark:text-white'>Technology I Use</h3>
+            <h3 className='text-3xl pb-5 font-Michroma dark:text-white'>Technology I Use</h3>
           </div>
           <div className='flex flex-wrap gap-3 justify-center'>
             <motion.div  whileHover={{ rotate: 360, boxShadow: "5px 5px 5px rgb( 53, 210, 249)"}} className='text-center shadow-2xl  rounded-xl p-5 grid justify-items-center dark:bg-gray-600 '>
