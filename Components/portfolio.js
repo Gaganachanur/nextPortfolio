@@ -8,7 +8,7 @@ import {
   AiFillMail,
   AiFillFilePdf,
 } from "react-icons/ai";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsMedium } from "react-icons/bs";
 import { WiAlien } from "react-icons/wi";
 import Image from "next/image";
 
@@ -19,9 +19,10 @@ import TechnologyUsed from "./TechnologyUsed.js";
 import Projects from "./projects";
 
 export default function Portfolio() {
-  const linkedinUrl = "https://www.linkedin.com/in/gagan-r-achanur-8804181a3/";
+  const linkedinUrl = "https://www.linkedin.com/in/gagan-r-achanur-developer/";
   const githubUrl = "https://github.com/Gaganachanur";
-  const Resume ="https://www.dropbox.com/s/1a1466dylx6ggzv/Gagan%27s%20Resume.pdf?dl=0";
+  const Resume ="https://www.dropbox.com/s/3pd29hgg6lmnvew/Gagan%27s%20Resume.pdf?dl=0";
+  const mediumUrl = `https://medium.com/@gaganachanur`;
   const { scrollYProgress } = useScroll();
   const [darkMode, setDarkMode] = useState(false);
   const [activeLinkedin, setActiveLinkedin] = useState("#0e76a8");
@@ -120,13 +121,9 @@ export default function Portfolio() {
                   window.open(Resume);
                 }}
               />
-              <AiFillMail
-                title="Mail"
-                className="cursor-pointer transform transition-all hover:scale-110 "
-                onMouseOver={() => setActiveMail("#BB001B")}
-                onMouseLeave={() => setActiveMail("")}
-                color={activeMail ? activeMail : ""}
-              />
+              <BsMedium  onClick={() => window.open(mediumUrl)}
+               className = "transform transition-all hover:scale-110 cursor-pointer" 
+               size="30px" />
             </div>
           </div>
           <div ><TechnologyUsed /></div>
