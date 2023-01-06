@@ -12,7 +12,7 @@ const Projects = () => {
            <h1 className=" pb-1 text-3xl"> Fashion.com</h1>
            <h3 className="pb-4"> Fashion.com is E-commers Website Demo of latest Clothes for genZ.. </h3>
            <p>Built Using Tech Stack</p>
-           <h3>- Next Js ,TailwindCSS ,Matireal UI ,Semantic UI.</h3>
+           <h3>- Next Js ,TailwindCSS ,Material UI ,Semantic UI.</h3>
             <h3>- Stripe as Payment gateway feel free to checkout your fav Dress :)</h3>
      </div>
      <div onClick={()=>window.open(fashionUrl)} className="border-spacing-4 cursor-pointer dark:text-black  dark:bg-gray-100 shadow-md hover:shadow-2xl p-10 m-5 rounded-xl  dark:ring-offset-slate-900 ... transform transition-all hover:scale-110 delay-75 ease-in-out duration-500">
