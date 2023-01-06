@@ -89,7 +89,6 @@ export default function Portfolio() {
               automatically
               provided
               height={400}
-              // blurDataURL="data:..." automatically provided
               placeholder="dev image" // Optional blur-up while loading
             />
           </div>
