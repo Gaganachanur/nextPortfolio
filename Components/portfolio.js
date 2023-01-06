@@ -55,7 +55,7 @@ export default function Portfolio() {
               <h1 className="font-sans italic font-medium text-xl dark:text-white">
                 Developed by Gagan
               </h1>
-              <WiAlien className="text-3xl dark:text-white" />
+              <WiAlien className="text-3xl dark:text-white animate-ping " />
             </div>
             <ul className="flex items-center gap-6">
               <li>
@@ -63,7 +63,7 @@ export default function Portfolio() {
                   <FcHome className="cursor-pointer" />
                 </Link>
               </li>
-              <li className=" animate-bounce">
+              <li className=" animate-bounce ">
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
                   className="cursor-pointer"
@@ -93,10 +93,10 @@ export default function Portfolio() {
             />
           </div>
           <div className="flex p-1 justify-center">
-            <div className="text-5xl flex justify-center py-10 gap-16 dark:text-white text-gray-600">
+            <div className="text-5xl flex justify-center py-10 gap-10 dark:text-white text-gray-600">
               <AiFillLinkedin
                 title="LinkedIn Profile"
-                className="cursor-pointer "
+                className="cursor-pointer transform transition-all hover:scale-110 "
                 onMouseOver={() => setActiveLinkedin("#0e76a8")}
                 onMouseLeave={() => setActiveLinkedin("")}
                 color={activeLinkedin ? activeLinkedin : ""}
@@ -104,7 +104,7 @@ export default function Portfolio() {
               />
               <AiFillGithub
                 title="Github Profile"
-                className="cursor-pointer "
+                className="cursor-pointer transform transition-all hover:scale-110 "
                 onMouseOver={() => setActiveGithub("grey")}
                 onMouseLeave={() => setActiveGithub("")}
                 color={activeGithub ? activeGithub : ""}
@@ -112,7 +112,7 @@ export default function Portfolio() {
               />
               <AiFillFilePdf
                 title="Resume"
-                className="cursor-pointer "
+                className="cursor-pointer transform transition-all hover:scale-110  "
                 onMouseOver={() => setMyResume("D5353B")}
                 onMouseLeave={() => setMyResume("")}
                 color={myResume}
@@ -122,15 +122,17 @@ export default function Portfolio() {
               />
               <AiFillMail
                 title="Mail"
-                className="cursor-pointer "
+                className="cursor-pointer transform transition-all hover:scale-110 "
                 onMouseOver={() => setActiveMail("#BB001B")}
                 onMouseLeave={() => setActiveMail("")}
                 color={activeMail ? activeMail : ""}
               />
             </div>
           </div>
-          <TechnologyUsed />
-          <Projects/>
+          <div ><TechnologyUsed /></div>
+          
+          <div className=" py-20"> <Projects/></div>
+          
           <section>
             <div>
               <h3 className="text-3xl py-1 font-Michroma dark:text-gray-200">
