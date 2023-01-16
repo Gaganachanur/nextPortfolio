@@ -17,6 +17,8 @@ import portfolio from "../assets/dev7.png";
 import dangerousdev from "../assets/dangerousdev1.png";
 import TechnologyUsed from "./TechnologyUsed.js";
 import Projects from "./projects";
+import stars from '../assets/stars.png'
+import Contact from '../Components/contact.js'
 
 export default function Portfolio() {
   const linkedinUrl = "https://www.linkedin.com/in/gagan-r-achanur-developer/";
@@ -127,8 +129,8 @@ export default function Portfolio() {
             </div>
           </div>
           <div ><TechnologyUsed /></div>
-          
-          <div className=" py-20"> <Projects/></div>
+           
+          <div className=" py-20 star"> <Projects/></div>
           
           <section>
             <div>
@@ -147,9 +149,9 @@ export default function Portfolio() {
             </div>
           </section>
 
-          <section className="border-spacing-4 dark:text-black  dark:bg-gray-100 shadow-2xl p-10 m-5 rounded-xl  dark:ring-offset-slate-900 ...">
+          <section className="border-spacing-4 dark:text-black wave dark:bg-gray-100 shadow-2xl p-10 m-5 rounded-xl  dark:ring-offset-slate-900 ...">
             <h3 className="text-3xl py-1 mb-3 font-Michroma">About me!</h3>
-            <div className="flex flex-wrap gap-4 justify-around md:p-6 rounded-lg shadow-2xl">
+            <div className="flex flex-wrap gap-4 justify-around md:p-6 rounded-lg">
               <p className="md:text-xl md:p-5 text-center font-Kalam w-80  ">
                 `I am a dedicated and diligent individual toward the world of
                 computers. having a self driven attitude to embrace new tools
@@ -166,37 +168,7 @@ export default function Portfolio() {
               />
             </div>
           </section>
-
-          <div className="border-spacing-4 shadow-2xl p-10 m-5 rounded-xl border-4 ... dark:text-black dark:bg-gray-100">
-            <h3 className="text-2xl py-1 mb-3 font-Michroma">
-              Reach Out to me!
-            </h3>
-            <div className="font-burtons p-5 md:text-10md flex-col ">
-              <div className="flex items-center flex-wrap gap-5 ">
-                <h3 className="m-4 font-Kalam">
-                  Associate Software Engineer @BYJU's 💭
-                </h3>
-                <h3 className="m-4font-Kalam">
-                  Open for opportunities:{" "}
-                  <span className="text-blue-500 text-4xl font-semibold ...">
-                    Yes
-                  </span>
-                </h3>
-                <h3 className="m-4 font-Kalam">
-                  Mobile:{" "}
-                  <span className="text-blue-500 md:text-3xl font-semibold ...">
-                    9591557009
-                  </span>
-                </h3>
-                <h3 className="m-4 font-Kalam">
-                  Mail:{" "}
-                  <span className="text-blue-500 md:text-3xl font-semibold ...">
-                    <a>gaganachanur@gmail.com</a>
-                  </span>
-                </h3>
-              </div>
-            </div>
-          </div>
+          <Contact/>
         </motion.main>
       </div>
     </Fragment>
