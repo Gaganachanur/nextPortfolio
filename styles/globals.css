@@ -21,4 +21,24 @@ a {
   box-sizing: border-box;
 }
 
+.wave{
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('/wave.svg');
+}
+
+.star{
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('/star.svg');
+
+}
+
+
 
