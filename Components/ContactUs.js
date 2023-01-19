@@ -49,7 +49,7 @@ export const ContactUs = () => {
     </div>
     <div className='flex flex-wrap justify-center py-3'>
     <label className='px-3'>Country</label>
-      <input  className='border-4 py-1 px-5  m-3 rounded-full' required type='Phone' name="country" />
+      <input  className='border-4 py-1 px-5  m-3 rounded-full'placeholder='Ex-India' required type='Phone' name="country" />
       <label className='px-3'>What's app</label>
       <input  className='border-4 py-1 px-5  m-3 rounded-full' required type='tel' name="mobile" placeholder="Ex-9463214582" pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
     </div>

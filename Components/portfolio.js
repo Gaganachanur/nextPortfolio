@@ -137,7 +137,7 @@ export default function Portfolio() {
               <h3 className="text-3xl py-1 font-Michroma dark:text-gray-200">
                 What I Provide
               </h3>
-              <div className="text-xl py-2 leading-8 text-gray-800  dark:text-gray-200">
+              <div className=" py-2 leading-8 text-gray-800  dark:text-gray-200">
                 <h3>
                   - Design, Development, and Maintenance of Web and Mobile
                   Applications.
