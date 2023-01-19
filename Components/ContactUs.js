@@ -43,9 +43,9 @@ export const ContactUs = () => {
     <form ref={form} onSubmit={sendEmail}>
     <div className='flex flex-wrap justify-center py-3'>
       <label className='px-3'>Name</label>
-      <input className='border-4 py-1 px-10 m-3 rounded-full' required type="text" name="to_name" />
+      <input className='border-4 py-1 px-8 m-3 rounded-full' required type="text" name="to_name" />
       <label className='px-3'>Email</label>
-      <input  className='border-4 py-1 px-10 m-3 rounded-full' required type="email" name="from_name" />
+      <input  className='border-4 py-1 px-8 m-3 rounded-full' required type="email" name="from_name" />
     </div>
     <div className='flex flex-wrap justify-center py-3'>
     <label className='px-3'>Country</label>
