@@ -18,7 +18,7 @@ import dangerousdev from "../assets/dangerousdev1.png";
 import TechnologyUsed from "./TechnologyUsed.js";
 import Projects from "./projects";
 import stars from '../assets/stars.png'
-import Contact from '../Components/contact.js'
+import {ContactUs} from './ContactUs.js'
 
 export default function Portfolio() {
   const linkedinUrl = "https://www.linkedin.com/in/gagan-r-achanur-developer/";
@@ -148,7 +148,7 @@ export default function Portfolio() {
               </div>
             </div>
           </section>
-
+          <ContactUs/> 
           <section className="border-spacing-4 dark:text-black wave dark:bg-gray-100 shadow-2xl p-10 m-5 rounded-xl  dark:ring-offset-slate-900 ...">
             <h3 className="text-3xl py-1 mb-3 font-Michroma">About me!</h3>
             <div className="flex flex-wrap gap-4 justify-around md:p-6 rounded-lg">
@@ -168,7 +168,6 @@ export default function Portfolio() {
               />
             </div>
           </section>
-          <Contact/>
         </motion.main>
       </div>
     </Fragment>
