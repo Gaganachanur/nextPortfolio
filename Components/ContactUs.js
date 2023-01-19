@@ -49,16 +49,19 @@ export const ContactUs = () => {
     </div>
     <div className='flex flex-wrap justify-center py-3'>
     <label className='px-3'>Country</label>
-      <input  className='border-4 py-1 px-5  m-3 rounded-full' required type='Phone' name="number" />
+      <input  className='border-4 py-1 px-5  m-3 rounded-full' required type='Phone' name="country" />
       <label className='px-3'>What's app</label>
-      <input  className='border-4 py-1 px-5  m-3 rounded-full' required type='tel' name="number"placeholder="Ex-9463214582" pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
+      <input  className='border-4 py-1 px-5  m-3 rounded-full' required type='tel' name="mobile" placeholder="Ex-9463214582" pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
     </div>
     <div className='flex flex-wrap justify-center py-3'>
       <label className='px-3'>Message</label>
-      <textarea  className='border-4 py-1 px-5 lg:w-1/4 m-3 rounded-full' name="message" />
+      <textarea 
+       placeholder="If your from other country please paste your what's number here"
+       className='border-4 py-1 px-5 lg:w-1/4 m-3 rounded-full' name="message" />
     </div>
     <div className='flex flex-wrap justify-center py-3'>
-      <button  className='flex justify-center cursor-pointer  transform transition-all hover:scale-105 hover:shadow-2xl hover:bg-yellow-500 hover:text-black bg-black text-white p-5 m-3 rounded-full'
+      <button 
+       className='flex justify-center cursor-pointer  transform transition-all hover:scale-105 hover:shadow-2xl hover:bg-yellow-500 hover:text-black bg-black text-white p-5 m-3 rounded-full'
        type="submit"
        onClick = {handleClick({
         vertical: 'top',

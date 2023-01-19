@@ -26,7 +26,7 @@ export default function Portfolio() {
   const Resume ="https://www.dropbox.com/s/3pd29hgg6lmnvew/Gagan%27s%20Resume.pdf?dl=0";
   const mediumUrl = `https://medium.com/@gaganachanur`;
   const { scrollYProgress } = useScroll();
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [activeLinkedin, setActiveLinkedin] = useState("#0e76a8");
   const [activeGithub, setActiveGithub] = useState("");
   const [activeMail, setActiveMail] = useState("#BB001B");
@@ -58,7 +58,7 @@ export default function Portfolio() {
               <h1 className="font-sans italic font-medium text-xl dark:text-white">
                 Developed by Gagan
               </h1>
-              <WiAlien className="text-3xl dark:text-white animate-ping " />
+              <WiAlien className="text-3xl dark:text-white animate-pulse " />
             </div>
             <ul className="flex items-center gap-6">
               <li>
@@ -130,7 +130,7 @@ export default function Portfolio() {
           </div>
           <div ><TechnologyUsed /></div>
            
-          <div className=" py-20 star"> <Projects/></div>
+          <div className=" py-20 "> <Projects/></div>
           
           <section>
             <div>
@@ -149,7 +149,7 @@ export default function Portfolio() {
             </div>
           </section>
           <ContactUs/> 
-          <section className="border-spacing-4 dark:text-black wave dark:bg-gray-100 shadow-2xl p-10 m-5 rounded-xl  dark:ring-offset-slate-900 ...">
+          <section className="border-spacing-4 dark:text-black wave dark:bg-gray-100 shadow-2xl p-10 mt-5 rounded-xl  dark:ring-offset-slate-900 ...">
             <h3 className="text-3xl py-1 mb-3 font-Michroma">About me!</h3>
             <div className="flex flex-wrap gap-4 justify-around md:p-6 rounded-lg">
               <p className="md:text-xl md:p-5 text-center font-Kalam w-80  ">
