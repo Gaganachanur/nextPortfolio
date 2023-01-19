@@ -15,7 +15,7 @@ const Projects = () => {
           <h1 className=" pb-1 text-3xl"> Fashion.com</h1>
           <h3 className="pb-4">
             {" "}
-            Fashion.com is E-commers Website Demo of latest Clothes for genZ..{" "}
+            Fashion.com is E-commerce Website Demo of latest Clothes for genZ..{" "}
           </h3>
           <p>Built Using Tech Stack</p>
           <h3>- Next Js ,TailwindCSS ,Material UI ,Semantic UI.</h3>
