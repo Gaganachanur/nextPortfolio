@@ -11,7 +11,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className="flex flex-wrap justify-around ">
-        <div className="dark:text-white text-xl py-2 leading-8 ">
+        <div className="dark:text-white  py-2 leading-8 ">
           <h1 className=" pb-1 text-3xl"> Fashion.com</h1>
           <h3 className="pb-4">
             {" "}
