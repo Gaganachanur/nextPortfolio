@@ -9,17 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.10.14",
     "@mui/styled-engine-sc": "^5.10.14",
-    "framer-motion": "^7.6.5",
     "autoprefixer": "^9.8.8",
+    "dotenv": "^16.0.3",
+    "framer-motion": "^7.6.5",
     "next": "13.0.4",
     "postcss": "^7.0.39",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
+    "react-phone-input-2": "^2.15.1",
     "styled-component": "^2.8.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
