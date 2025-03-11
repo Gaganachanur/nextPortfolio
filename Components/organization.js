@@ -20,6 +20,7 @@ export const Organization = () => {
           - start up unicorn like Byju's and MNC Tecnotree Corporation
         </h3>
         </div>
+        <div className="flex flex-col lg:flex-row">
         <Image
                 className="rounded-full shadow-2xl m-5"
                 alt="Byjus_logo"
@@ -28,6 +29,7 @@ export const Organization = () => {
                 objectFit="cover"
                 src={Byjus_logo}
               />
+            
                 <Image
                 className="rounded-full shadow-2xl m-5 "
                 alt="tecnotree_logo"
@@ -36,6 +38,7 @@ export const Organization = () => {
                 objectFit="cover"
                 src={tecnotree_logo}
               />
+              </div>
       </div>
     </Fragment>
   );
