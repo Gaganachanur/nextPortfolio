@@ -19,11 +19,12 @@ import TechnologyUsed from "./TechnologyUsed.js";
 import Projects from "./projects";
 import stars from '../assets/stars.png'
 import {ContactUs} from './ContactUs.js'
+import { Organization } from "./organization.js";
 
 export default function Portfolio() {
   const linkedinUrl = "https://www.linkedin.com/in/gagan-r-achanur-developer/";
   const githubUrl = "https://github.com/Gaganachanur";
-  const Resume ="https://www.dropbox.com/s/3pd29hgg6lmnvew/Gagan%27s%20Resume.pdf?dl=0";
+  const Resume ="https://www.dropbox.com/scl/fi/1324jwm8ntp1jor3ial8r/Gagan_RA_Fullstack_developer_Resume.pdf?rlkey=quaq2xiwf0pz61c62t73po2c4&dl=0";
   const mediumUrl = `https://medium.com/@gaganachanur`;
   const { scrollYProgress } = useScroll();
   const [darkMode, setDarkMode] = useState(true);
@@ -129,7 +130,7 @@ export default function Portfolio() {
             </div>
           </div>
           <div ><TechnologyUsed /></div>
-           
+           <Organization/>
           <div className=" py-20 "> <Projects/></div>
           
           <section>
