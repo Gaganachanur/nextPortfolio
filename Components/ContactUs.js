@@ -93,7 +93,7 @@ export const ContactUs = () => {
             <label className="px-3">Message</label>
             <textarea
               placeholder="If your from other country please paste your what's number here"
-              className="border-4 py-1 px-5 lg:w-1/4 m-3 rounded-full"
+              className="border-4 py-5 px-5 lg:w-1/4 m-3 rounded-full"
               name="message"
             />
           </div>
